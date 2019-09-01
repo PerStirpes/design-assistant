@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+package-lock.json
+test
+temp*
+
+.env
+
+.DS_Store
+
+
+### IDE Settings (EditorConfig/Sublime)
+.editorconfig
+
+### IDE Settings (VSCode)
+.vscode
