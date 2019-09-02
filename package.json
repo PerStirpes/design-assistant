@@ -5,7 +5,8 @@
   "description": "Giving the power to the design",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon api/index.js"
+    "start": "nodemon api/index.js",
+    "build": "netlify-lambda build api"
   },
   "author": "LD team",
   "engines": {
@@ -13,14 +14,15 @@
     "npm": ">=5.x"
   },
   "dependencies": {
-    "@now/node": "0.12.7",
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "clubhouse-lib": "^0.8.0",
     "debug": "^3.1.0",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
+    "netlify-lambda": "1.6.3",
     "nodemon": "1.19.1",
+    "serverless-http": "2.3.0",
     "tsscmp": "1.0.6"
   },
   "license": "MIT"
