@@ -5,8 +5,7 @@
   "description": "Giving the power to the design",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js",
-    "build": "src/index.js build"
+    "start": "nodemon api/index.js"
   },
   "author": "LD team",
   "engines": {
