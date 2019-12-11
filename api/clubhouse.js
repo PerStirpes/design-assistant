@@ -6,7 +6,7 @@ const Clubhouse1 = require("clubhouse-lib");
 
 // Production
 
-const clubhouse = Clubhouse1.create("5d6c4680-2284-4a2d-b5d1-e4d10feea063"); // ASU ACCOUNT API TOKEN
+const clubhouse = Clubhouse1.create("API KEY"); // ASU ACCOUNT API TOKEN
 
 const labels = {
   design: { external_id: "53", name: "design" },
