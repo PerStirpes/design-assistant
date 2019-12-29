@@ -336,8 +336,6 @@ const createStory = (userId, submission) => {
   story.story_type = "feature";
   story.category = submission.category;
 
-  // story.labels = [];
-  // story.labels.push(labels[submission.category]);
 
   // used for confirmation
   story.userId = userId;
@@ -418,11 +416,6 @@ const find = slackUserId => {
   );
   return promise;
 };
-
-// const routerBasePath =
-//   process.env.NODE_ENV === "dev"
-//     ? `/${functionName}`
-//     : `/.netlify/functions/index`;
 
 app.use("/.netlify/functions/index", router); // path must route to lambda
 app.use(bodyParser.urlencoded({ extended: true }));
