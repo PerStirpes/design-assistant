@@ -5,7 +5,7 @@
 
 # Design assistant
 
-These is designs assistant and is useful for working on a user-facing project and you don't have a triad or designer?
+This is the design team's assistant and is useful for working on a user-facing project and when you don't have a triad or designer?
 
 The app is composed of two serverless functions command.js and interactive.js
 
@@ -36,7 +36,7 @@ The app is composed of two serverless functions command.js and interactive.js
 
 Local changes should be picked up automatically without needing to restart the app.
 
-##### Add secrets
 
-now secret add
+
+
 
