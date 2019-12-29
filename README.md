@@ -5,7 +5,7 @@
 
 # Design assistant
 
-This is the design team's assistant and is useful for working on a user-facing project and when you don't have a triad or designer?
+This is the design team's assistant and is useful for working on a user-facing project, fixing papercuts, etc. And when you don't have a triad or designer.
 
 The app is composed of two serverless functions command.js and interactive.js
 
