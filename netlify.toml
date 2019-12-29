@@ -1,4 +1,4 @@
 [build]
   functions = "functions"
   command = "npm install && npm run build"
-  publish = "public"
+  publish = "private"
