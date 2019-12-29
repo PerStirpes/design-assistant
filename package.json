@@ -10,7 +10,7 @@
   },
   "author": "LD team",
   "engines": {
-    "node": ">=10.x",
+    "node": ">=11.x",
     "npm": ">=5.x"
   },
   "dependencies": {
